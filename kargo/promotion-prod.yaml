@@ -1,0 +1,9 @@
+apiVersion: kargo.akuity.io/v1alpha1
+kind: Promotion
+metadata:
+  generateName: prod-promotion-
+  namespace: kargo-simple
+spec:
+  stage: prod
+  freight: ef12c50c6c3c67642b67438bfbb05353ccc030d8
+
